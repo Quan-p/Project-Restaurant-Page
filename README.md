@@ -1,1 +1,2 @@
 # Project-Restaurant-Page
+This project will be a continuation of practicing DOM manipulation by dynamically rendering a simple restaurant homepage. By the end, JavaScript alone will be used to generate the entire contents of the website.
