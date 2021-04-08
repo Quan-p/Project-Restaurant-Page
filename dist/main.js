@@ -1,1 +1,1 @@
-(()=>{var e=document.getElementById("content"),t=document.createElement("h1"),n=document.createTextNode("Fake Restaurant");t.appendChild(n),e.appendChild(t);var a=document.createElement("img");a.src="/public/images/homePic.jpg",e.appendChild(a)})();
+(()=>{var e=document.getElementById("content"),t=document.createElement("h1"),a=document.createTextNode("Fake Restaurant");t.appendChild(a),e.appendChild(t);var d=document.createElement("img");d.src="/public/images/homePic.jpg",e.appendChild(d),d.classList.add("mainImg")})();
