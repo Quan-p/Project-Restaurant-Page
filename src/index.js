@@ -1,12 +1,9 @@
-var main = document.getElementById('content');
+import createHeader from '/src/init-page-load.js';
 
 
-var head = document.createElement('h1');
-var headContent = document.createTextNode('Fake Restaurant');
-head.appendChild(headContent);
-main.appendChild(head);
 
-var homePic = document.createElement('img');
-homePic.src = '/public/images/homePic.jpg';
-main.appendChild(homePic);
-homePic.classList.add("mainImg");
+function init() {
+    createHeader();
+}
+
+init();
