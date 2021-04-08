@@ -1,4 +1,1 @@
-var head = document.createElement("h1");
-var headContent = document.createTextNode("Fake Restaurant");
-head.appendChild(headContent);
-document.getElementById('content').appendChild(head);
+(()=>{var e=document.getElementById("content"),t=document.createElement("h1"),n=document.createTextNode("Fake Restaurant");t.appendChild(n),e.appendChild(t);var a=document.createElement("img");a.src="/public/images/homePic.jpg",e.appendChild(a)})();
