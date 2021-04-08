@@ -5,6 +5,8 @@ function createHeader() {
     document.getElementById('content').appendChild(head);
     return head;
 }
+export default createHeader;
+
 var homePic = document.createElement('img');
 homePic.src = '/public/images/homePic.jpg';
 document.getElementById('content').appendChild(homePic);
