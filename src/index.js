@@ -9,4 +9,3 @@ main.appendChild(head);
 var homePic = document.createElement('img');
 homePic.src = '/public/images/homePic.jpg';
 main.appendChild(homePic);
-//potato
