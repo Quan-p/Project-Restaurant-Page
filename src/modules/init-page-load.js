@@ -7,7 +7,12 @@ function createHeader() {
 }
 export default createHeader;
 
-var homePic = document.createElement('img');
-homePic.src = '/public/images/homePic.jpg';
-document.getElementById('content').appendChild(homePic);
-homePic.classList.add("mainImg");
+function createMainImg () {
+    var homePic = document.createElement('img');
+    homePic.src = '/public/images/homePic.jpg';
+    document.getElementById('content').appendChild(homePic);
+    homePic.classList.add("mainImg");
+    return homePic;
+}
+
+export default createMainImg;
