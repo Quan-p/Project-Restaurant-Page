@@ -1,18 +1,26 @@
-function createHeader() {
-    var head = document.createElement('h1');
-    var headContent = document.createTextNode('Fake Restaurant');
-    head.appendChild(headContent);
-    document.getElementById('content').appendChild(head);
-    return head;
+function createTitle(id, text) {
+    var header = document.createElement('header');
+    header.setAttribute('id', id);
+    const title = document.createElement('h1');
+    title.textContent = text;
+    header.appendChild(title)
+    return header;
 }
-export default createHeader;
 
-function createMainImg () {
+function createMainImg() {
     var homePic = document.createElement('img');
-    homePic.src = '/public/images/homePic.jpg';
-    document.getElementById('content').appendChild(homePic);
-    homePic.classList.add("mainImg");
     return homePic;
 }
 
-export default createMainImg;
+function homePageLoad() {
+    const content = document.getElementById('content');
+
+    var header = createTitle('header', 'Fake Restaurant');
+    //title.appendChild(titleContent);
+    content.appendChild(header);
+
+    homePic.src = '/public/images/homePic.jpg';
+    content.appendChild(homePic);
+    homePic.classList.add("mainImg");
+}
+export default homePageLoad;
