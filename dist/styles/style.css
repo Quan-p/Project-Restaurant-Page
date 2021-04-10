@@ -1,4 +1,9 @@
+h1 {
+    font-size: 50px;
+}
+
 .mainImg {
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 400px;
+    display: flex;
 }
