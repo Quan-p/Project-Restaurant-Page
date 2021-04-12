@@ -16,6 +16,25 @@ function createMainImg(src, alt) {
     return mainImg;
 }
 
+function createSection() {
+    var description = document.createElement('section');
+    description.classList.add('section');
+    
+    var title = document.createElement('h2')
+    title.classList.add('section-title');
+    title.textContent = 'About';
+
+    description.appendChild(title);
+
+    var content = document.createElement('p');
+    content.classList.add('section-description');
+    content.textContent = 'We offer the best food from all over Middle-Earth, allowing you to escape into the greatest fictional world. Lorem ipsum dolor sitamet consectetur adipisicing elit. Animi in, neque, dignissimosperspiciatis illo deserunt tetur adipisicing elit.'
+
+    description.appendChild(content);
+    
+    return description;
+}
+
 function homePageLoad() {
     const content = document.getElementById('content');
 
@@ -23,5 +42,8 @@ function homePageLoad() {
     content.appendChild(header);
 
     createMainImg('https://pbs.twimg.com/media/DAuME7uVwAAYBCK.jpg', 'Dining tables with food');
+
+    const aboutSection = createSection();
+    content.appendChild(aboutSection);
 }
 export default homePageLoad;
