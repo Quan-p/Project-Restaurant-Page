@@ -19,7 +19,7 @@ function createMainImg(src, alt) {
 function homePageLoad() {
     const content = document.getElementById('content');
 
-    var header = createTitle('header', 'Shire Food');
+    var header = createTitle('header', 'Middle-Earth Dining');
     content.appendChild(header);
 
     createMainImg('/public/images/homePic.jpg', 'Restaurant food table');
