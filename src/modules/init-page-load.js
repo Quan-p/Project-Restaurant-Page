@@ -22,6 +22,6 @@ function homePageLoad() {
     var header = createTitle('header', 'Middle-Earth Dining');
     content.appendChild(header);
 
-    createMainImg('/public/images/homePic.jpg', 'Restaurant food table');
+    createMainImg('https://pbs.twimg.com/media/DAuME7uVwAAYBCK.jpg', 'Dining tables with food');
 }
 export default homePageLoad;
