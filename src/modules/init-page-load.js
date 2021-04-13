@@ -35,11 +35,31 @@ function createSection() {
     return description;
 }
 
+function tabCreate() {
+    var tabs = document.createElement('div');
+    tabs.classList.add('tabsy');
+
+    var tabButton = document.createElement('input');
+    tabButton.setAttribute('type', 'radio');
+    
+    var label = document.createElement('label');
+    var labelText = document.createTextNode('Tab One');
+    label.classList.add('tabButton');
+    label.setAttribute('for', 'Tab One');
+    label.appendChild(labelText);
+    
+    tabs.appendChild(label);
+    tabs.appendChild(tabButton);
+}
+
 function homePageLoad() {
     const content = document.getElementById('content');
 
     var header = createTitle('header', 'Middle-Earth Dining');
     content.appendChild(header);
+
+    var tabSection = tabCreate();
+    content.appendChild(tabSection);
 
     createMainImg('https://pbs.twimg.com/media/DAuME7uVwAAYBCK.jpg', 'Dining tables with food');
 
