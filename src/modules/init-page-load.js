@@ -9,6 +9,7 @@ function createTitle(id, text) {
 
 function createMainImg(src, alt) {
     var mainImg = document.createElement('img');
+    mainImg.setAttribute('id', 'tableImg');
     mainImg.classList.add('homeFood');
     mainImg.setAttribute('src', src);
     mainImg.setAttribute('alt', alt);
