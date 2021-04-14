@@ -20,6 +20,7 @@ function createMainImg(src, alt) {
 function createSection() {
     var description = document.createElement('section');
     description.classList.add('section');
+    description.setAttribute('id', 'about-section')
     
     var title = document.createElement('h2')
     title.classList.add('section-title');
