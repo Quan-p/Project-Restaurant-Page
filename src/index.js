@@ -7,7 +7,7 @@ function navEvents() {
     var menuBtn = document.getElementById('menu');
     var contactBtn = document.getElementById('contact');
 
-    homeBtn.addEventListener('click', homePageLoad);
+    homeBtn.addEventListener('click', pageLoad);
     menuBtn.addEventListener('click', menuLoad);
     contactBtn.addEventListener('click', contactLoad);
 }
