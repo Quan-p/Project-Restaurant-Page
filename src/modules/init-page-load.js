@@ -71,15 +71,15 @@ function createNav(id) {
 
 function pageLoad() {
     const content = document.getElementById('content');
-    
-    mainTab();
 
     var header = createTitle('header', 'Middle-Earth Dining');
     content.appendChild(header);
 
     var nav = createNav('nav');
     content.appendChild(nav);
-
+    
+    mainTab();
+    
     createMainImg('https://pbs.twimg.com/media/DAuME7uVwAAYBCK.jpg', 'Dining tables with food');
 
     const aboutSection = createSection();
