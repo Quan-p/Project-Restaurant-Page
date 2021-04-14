@@ -34,3 +34,5 @@ function homeLoad() {
     const aboutSection = createSection();
     content.appendChild(aboutSection);
 }
+
+export default homeLoad;
