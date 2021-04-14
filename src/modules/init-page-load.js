@@ -61,7 +61,7 @@ function createNav(id) {
     return nav;
 }
 
-function homePageLoad() {
+function pageLoad() {
     const content = document.getElementById('content');
 
     var header = createTitle('header', 'Middle-Earth Dining');
@@ -75,4 +75,4 @@ function homePageLoad() {
     const aboutSection = createSection();
     content.appendChild(aboutSection);
 }
-export default homePageLoad;
+export default pageLoad;

@@ -1,4 +1,4 @@
-import homePageLoad from './modules/init-page-load.js';
+import pageLoad from './modules/init-page-load.js';
 import menuLoad from './modules/menu.js';
 import contactLoad from './modules/contact.js';
 
@@ -13,7 +13,7 @@ function navEvents() {
 }
 
 function init() {
-    homePageLoad();
+    pageLoad();
     navEvents();
 }
 
