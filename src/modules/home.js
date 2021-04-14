@@ -28,10 +28,21 @@ function createSection() {
     return description;
 }
 
+function setBtnActive(id) {
+    var activeBtn = document.querySelector('.tabs.active');
+    if (activeBtn) activeBtn.classList.remove('active');
+
+    var homeBtn = document.getElementById(id);
+    homeBtn.classList.add('active');
+}
+
 function homeLoad() {
     createMainImg('https://pbs.twimg.com/media/DAuME7uVwAAYBCK.jpg', 'Dining tables with food');
 
     const aboutSection = createSection();
+    
+    setBtnActive('home');
+
     content.appendChild(aboutSection);
 }
 
