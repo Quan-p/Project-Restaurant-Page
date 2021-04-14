@@ -1,3 +1,11 @@
+function mainTab() {
+    var tabContent = document.createElement('main');
+    tabContent.classList.add('tabContent');
+    tabContent.setAttribute('id', 'tabContent');
+    document.getElementById('content').appendChild(tabContent);
+    return tabContent;
+}
+
 function createTitle(id, text) {
     var header = document.createElement('header');
     header.setAttribute('id', id);
@@ -13,7 +21,7 @@ function createMainImg(src, alt) {
     mainImg.classList.add('homeFood');
     mainImg.setAttribute('src', src);
     mainImg.setAttribute('alt', alt);
-    content.appendChild(mainImg);
+    tabContent.appendChild(mainImg);
     return mainImg;
 }
 
@@ -63,6 +71,8 @@ function createNav(id) {
 
 function pageLoad() {
     const content = document.getElementById('content');
+    
+    mainTab();
 
     var header = createTitle('header', 'Middle-Earth Dining');
     content.appendChild(header);
@@ -73,6 +83,6 @@ function pageLoad() {
     createMainImg('https://pbs.twimg.com/media/DAuME7uVwAAYBCK.jpg', 'Dining tables with food');
 
     const aboutSection = createSection();
-    content.appendChild(aboutSection);
+    tabContent.appendChild(aboutSection);
 }
 export default pageLoad;
