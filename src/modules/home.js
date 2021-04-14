@@ -37,6 +37,8 @@ function setBtnActive(id) {
 }
 
 function homeLoad() {
+    var content = document.getElementById('content');
+    
     createMainImg('https://pbs.twimg.com/media/DAuME7uVwAAYBCK.jpg', 'Dining tables with food');
 
     const aboutSection = createSection();
