@@ -2,7 +2,7 @@ import pageLoad from './modules/init-page-load.js';
 import homeLoad from './modules/home.js';
 import menuLoad from './modules/menu.js';
 import contactLoad from './modules/contact.js';
-
+init();
 function navEvents() {
     var homeBtn = document.getElementById('home');
     var menuBtn = document.getElementById('menu');
@@ -15,7 +15,7 @@ function navEvents() {
 
 function init() {
     pageLoad();
+    homeLoad();
     navEvents();
 }
 
-init();
