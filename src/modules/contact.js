@@ -1,8 +1,6 @@
 function contactLoad() {
-    var img = document.getElementById('tableImg')
-    img.parentNode.removeChild(img);
-    var section = document.getElementById('about-section');
-    section.parentNode.removeChild(section);
+    document.getElementById('tabContent').innerHTML = '';
+
 }
 
 export default contactLoad;
