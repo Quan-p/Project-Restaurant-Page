@@ -1,5 +1,4 @@
 function menuLoad() {
-    document.getElementById('tabContent').innerHTML = '';
 
     setBtnActive('menu');
 
@@ -11,6 +10,7 @@ function setBtnActive(id) {
 
     var homeBtn = document.getElementById(id);
     homeBtn.classList.add('active');
+
 }
 
 export default menuLoad;

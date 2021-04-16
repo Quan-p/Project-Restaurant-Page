@@ -1,8 +1,7 @@
 function contactLoad() {
-    document.getElementById('tabContent').innerHTML = '';
 
+    
     setBtnActive('contact');
-
 }
 
 function setBtnActive(id) {
