@@ -1,8 +1,8 @@
-function mainTab() {
+function mainTab(id) {
     var tabContent = document.createElement('main');
     tabContent.classList.add('tabContent');
-    tabContent.setAttribute('id', 'tabContent');
-    document.getElementById('content').appendChild(tabContent);
+    tabContent.setAttribute('id', id);
+    //document.getElementById('content').appendChild(tabContent);
     return tabContent;
 }
 
@@ -49,7 +49,8 @@ function pageLoad() {
     var nav = createNav('nav');
     content.appendChild(nav);
     
-    mainTab();
+    var tabContent = mainTab('tab-content');
+    content.appendChild(tabContent);
     
 }
 export default pageLoad;
