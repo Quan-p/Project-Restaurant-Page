@@ -20,11 +20,11 @@ function createSection() {
 
     description.appendChild(title);
 
-    var content = document.createElement('p');
-    content.classList.add('section-description');
-    content.textContent = 'We offer the best food from all over Middle-Earth, allowing you to escape into the greatest fictional world. Lorem ipsum dolor sitamet consectetur adipisicing elit. Animi in, neque, dignissimosperspiciatis illo deserunt tetur adipisicing elit.'
+    var aboutPara = document.createElement('p');
+    aboutPara.classList.add('section-description');
+    aboutPara.textContent = 'We offer the best food from all over Middle-Earth, allowing you to escape into the greatest fictional world. Lorem ipsum dolor sitamet consectetur adipisicing elit. Animi in, neque, dignissimosperspiciatis illo deserunt tetur adipisicing elit.'
 
-    description.appendChild(content);
+    description.appendChild(aboutPara);
     
     return description;
 }
