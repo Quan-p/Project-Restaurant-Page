@@ -40,6 +40,8 @@ function setBtnActive(id) {
 function homeLoad() {
     var mainContent = document.getElementById('tab-content');
 
+    mainContent.textContent = '';
+
     createMainImg('https://pbs.twimg.com/media/DAuME7uVwAAYBCK.jpg', 'Dining tables with food');
 
     const aboutSection = createSection();
