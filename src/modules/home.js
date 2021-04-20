@@ -1,10 +1,11 @@
 function createMainImg(src, alt) {
     var mainImg = document.createElement('img');
+    var mainContent = document.getElementById('tab-content');
     mainImg.setAttribute('id', 'tableImg');
     mainImg.classList.add('homeFood');
     mainImg.setAttribute('src', src);
     mainImg.setAttribute('alt', alt);
-    content.appendChild(mainImg);
+    mainContent.appendChild(mainImg);
     return mainImg;
 }
 
@@ -34,11 +35,10 @@ function setBtnActive(id) {
 
     var homeBtn = document.getElementById(id);
     homeBtn.classList.add('active');
-
 }
 
 function homeLoad() {
-    var content = document.getElementById('content');
+    var mainContent = document.getElementById('tab-content');
 
     createMainImg('https://pbs.twimg.com/media/DAuME7uVwAAYBCK.jpg', 'Dining tables with food');
 
@@ -46,7 +46,7 @@ function homeLoad() {
     
     setBtnActive('home');
 
-    content.appendChild(aboutSection);
+    mainContent.appendChild(aboutSection);
 }
 
 export default homeLoad;
