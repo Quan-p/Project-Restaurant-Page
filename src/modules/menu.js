@@ -3,8 +3,8 @@ function createFood(src, alt, text, desc) {
     food.classList.add('food');
     
     var img = document.createElement('img');
-    img.setAttribute('src'. src);
-    img.setAttribute('alt'. alt);
+    img.setAttribute('src', src);
+    img.setAttribute('alt', alt);
 
     var description = document.createElement('div');
     description.classList.add('description');
@@ -28,7 +28,18 @@ function menuLoad() {
     var mainContent = document.getElementById('tab-content');
     mainContent.textContent = '';
 
-    
+    const menuFoods = [
+        createFood(
+            'https://i2.wp.com/www.feastofstarlight.com/wp-content/uploads/2015/04/the-lord-of-the-rings-lembas-recipe.jpg?resize=701%2C1024',
+            'Lembas Bread',
+            'Lembas Bread',
+            'Lembas, Elvish waybread. One small bite is enough to fill the stomach of a grown man'
+        )
+    ]
+
+    menuFoods.forEach((food) => {
+        mainContent.appendChild(food);
+    });
     
     setBtnActive('menu');
 }
