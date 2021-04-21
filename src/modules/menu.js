@@ -1,5 +1,7 @@
 function menuLoad() {
+    var mainContent = document.getElementById('tab-content');
 
+    mainContent.textContent = '';
     setBtnActive('menu');
 
 }
