@@ -8,3 +8,20 @@ h1 {
     height: 400px;
     display: flex;
 }
+
+.food {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
