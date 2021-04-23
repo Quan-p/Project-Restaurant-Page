@@ -3,6 +3,11 @@ h1 {
     text-align: center;
 }
 
+#nav {
+    margin-bottom: 10px;
+    background-color: rgb(216, 206, 206);
+}
+
 .mainImg {
     width: 400px;
     height: 400px;
