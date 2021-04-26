@@ -1,3 +1,21 @@
+function infoLoad (id, text) {
+    var mainInfo = document.createElement('div');
+    mainInfo.classList.add(contactInfo);
+
+    var phone = document.createElement('h3');
+    phone.classList.add(contactHeader);
+    phone.setAttribute('id', id)
+
+    var address = document.createElement('h4')
+    address.classList.add(contactHeader);    
+    address.setAttribute('id', id)
+
+    mainInfo.appendChild(phone);
+    mainInfo.appendChild(address);
+    return mainInfo
+}
+
+
 function contactLoad() {
     var mainContent = document.getElementById('tab-content');
 
