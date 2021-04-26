@@ -6,7 +6,7 @@ function infoLoad () {
     phone.classList.add('contactHeader');
     phone.textContent = 'Phone'
 
-    var address = document.createElement('h4')
+    var address = document.createElement('h3')
     address.classList.add('contactHeader');    
     address.textContent = 'Address'
 
