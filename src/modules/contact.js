@@ -10,6 +10,16 @@ function infoLoad () {
     address.classList.add('contactHeader');    
     address.textContent = 'Address'
 
+    var phoneNum = document.createElement('p');
+    phoneNum.classList.add('contact-detail')
+    phoneNum.textContent = '111-111-1111'
+    var location = document.createElement('p');
+    location.classList.add('contact-detail')
+    location.textContent = 'Mount Doom'
+
+    phone.appendChild(phoneNum);
+    address.appendChild(location);
+
     mainInfo.appendChild(phone);
     mainInfo.appendChild(address);
     return mainInfo
