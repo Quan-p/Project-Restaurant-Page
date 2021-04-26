@@ -1,14 +1,14 @@
-function infoLoad (id, text) {
+function infoLoad () {
     var mainInfo = document.createElement('div');
     mainInfo.classList.add(contactInfo);
 
     var phone = document.createElement('h3');
     phone.classList.add(contactHeader);
-    phone.setAttribute('id', id)
+    phone.textContent = 'Phone'
 
     var address = document.createElement('h4')
     address.classList.add(contactHeader);    
-    address.setAttribute('id', id)
+    address.textContent = 'Address'
 
     mainInfo.appendChild(phone);
     mainInfo.appendChild(address);
@@ -21,6 +21,8 @@ function contactLoad() {
 
     mainContent.textContent = '';
     
+    var infoLoad = infoLoad;
+
     setBtnActive('contact');
 }
 
