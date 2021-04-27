@@ -35,8 +35,10 @@ h1 {
 .contactInfo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin: auto;
+    margin-top: 175px;
     align-items: center;
+    text-align: center;
 }
 
 .contactHeader {
