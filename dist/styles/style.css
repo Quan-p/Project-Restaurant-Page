@@ -32,10 +32,19 @@ h1 {
     margin: 10px;
 }
 
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .contactHeader {
     font-size: 35px;
+
 }
 
 .contact-detail {
     font-size: 20px;
+
 }
