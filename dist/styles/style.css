@@ -48,7 +48,13 @@ h2 {
 }
 #nav {
     margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     background-color: rgb(216, 206, 206);
+}
+
+.tabs {
+
 }
 
 
