@@ -46,11 +46,18 @@ h2 {
     color: white;
     font-size: 20px;
 }
+
+button {
+    font-family: 'LotrFont';
+    font-size: 20px;
+}
+
 #nav {
     margin-bottom: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: rgb(216, 206, 206);
+    
 }
 
 .tabs {
