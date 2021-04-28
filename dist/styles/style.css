@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'LotrFont';
+    src: url('ringbearer.ttf') format('truetype');
+}
+
 html {
     background-image: url('https://i.imgur.com/h32zbKv.jpeg');
 }
@@ -5,6 +10,8 @@ html {
 h1 {
     font-size: 50px;
     text-align: center;
+    font-family: 'LotrFont';
+    color: white;
 }
 
 #nav {
