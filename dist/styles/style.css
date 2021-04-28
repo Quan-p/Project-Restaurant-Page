@@ -32,6 +32,10 @@ h2 {
     margin-right: auto;
 }
 
+#about-section {
+    text-align: center;
+}
+
 .section-description {
     font-family: 'LotrFont';
     color: white;
