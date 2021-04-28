@@ -4,7 +4,12 @@
 }
 
 html {
-    background-image: url('https://i.imgur.com/h32zbKv.jpeg');
+    margin: 0;
+    height: 100vh;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/05/Lord-of-the-Rings-Wallpapers-Free-Download.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1 {
