@@ -33,6 +33,10 @@ h2 {
     margin-top: 100px;
 }
 
+.section-title {
+    font-size: 30px;
+}
+
 #about-section {
     text-align: center;
 }
@@ -40,6 +44,7 @@ h2 {
 .section-description {
     font-family: 'LotrFont';
     color: white;
+    font-size: 20px;
 }
 #nav {
     margin-bottom: 10px;
