@@ -14,6 +14,15 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-family: 'LotrFont';
+    color: white;
+}
+
+.section-description {
+    font-family: 'LotrFont';
+    color: white;
+}
 #nav {
     margin-bottom: 10px;
     background-color: rgb(216, 206, 206);
@@ -45,6 +54,7 @@ h1 {
     flex-direction: column;
     margin: 10px;
     justify-content: center;
+    
 }
 
 .contactInfo {
