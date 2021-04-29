@@ -66,8 +66,6 @@ button {
     color: #a38a4c;
 }
 
-
-
 .food {
     display: flex;
     margin: 0;
@@ -101,11 +99,13 @@ button {
 }
 
 .contactHeader {
+    font-family: 'LotrFont';
     font-size: 35px;
     color: #a38a4c;
 }
 
 .contact-detail {
+    font-family: 'LotrFont';
     font-size: 20px;
     color: #cac7a4;
 }
