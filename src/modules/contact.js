@@ -2,11 +2,11 @@ function infoLoad () {
     var mainInfo = document.createElement('div');
     mainInfo.classList.add('contactInfo');
 
-    var phone = document.createElement('h3');
+    var phone = document.createElement('h4');
     phone.classList.add('contactHeader');
     phone.textContent = 'Phone'
 
-    var address = document.createElement('h3')
+    var address = document.createElement('h4')
     address.classList.add('contactHeader');    
     address.textContent = 'Address'
 

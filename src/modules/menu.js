@@ -9,7 +9,7 @@ function createFood(src, alt, text, desc) {
     var description = document.createElement('div');
     description.classList.add('description');
 
-    const foodName = document.createElement('h2')
+    const foodName = document.createElement('h3')
     foodName.textContent = text;
 
     const foodDesc = document.createElement('p')
