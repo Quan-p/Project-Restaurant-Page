@@ -72,6 +72,13 @@ button {
     justify-content: left;
 }
 
+h3 {
+    font-size: 25px;
+    font-family: 'LotrFont';
+    color: #a38a4c;
+    margin: 5px;
+}
+
 .food img {
     width: 25%;
     height: 25%;
@@ -84,6 +91,8 @@ button {
 .description {
     display: flex;
     color: #cac7a4;
+    font-family: 'LotrFont';
+    font-size: 20px;
     flex-direction: column;
     margin: 10px;
     justify-content: center;
