@@ -78,6 +78,7 @@ button {
     padding: 10px;
     margin: 10px;
     flex-direction: column;
+    border-radius: 30px;
 }
 
 .description {
