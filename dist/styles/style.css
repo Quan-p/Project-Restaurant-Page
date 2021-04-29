@@ -51,12 +51,14 @@ button {
     font-family: 'LotrFont';
     font-size: 20px;
     background-color: #cac7a4;
+    outline: none;
+    border-radius: 5px;
 }
 
 #nav {
     margin-bottom: 10px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);    
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .tabs.active{
